@@ -30,7 +30,7 @@ O desafio de back-end será a contrução de API Rest para o funcionamento de um
 
 ## Documentações/Referências
 - [AdonisJS](https://docs.adonisjs.com/guides/introduction)
-- [Node](https://nodejs.org/pt-br/docs/)
+- [NodeJS](https://nodejs.org/pt-br/docs/)
 - [Typescript](https://www.typescriptlang.org/docs/)
 - [MySQL](https://dev.mysql.com/doc/refman/8.0/en/)
 
