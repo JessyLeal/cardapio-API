@@ -1,5 +1,6 @@
 import { HttpContextContract } from '@ioc:Adonis/Core/HttpContext'
 import Categoria from 'App/Models/Categoria'
+import Produto from 'App/Models/Produto'
 
 export default class CategoriasController {
   public async index ({}: HttpContextContract) {
@@ -14,7 +15,7 @@ export default class CategoriasController {
 
   public async show ({request,response}: HttpContextContract) {
     const {id} = request.params()
-    const ctg = await Categoria.findBy('id', id)
+    const ctg = await Categoria.query().where('id', id).preload('produto')
     if (!ctg){
       return response.notFound()
     } 
@@ -39,6 +40,7 @@ export default class CategoriasController {
     if (!ctg){
       return response.notFound()
     }
+    await Produto.query().where('categoria_id', id).delete()
     ctg.delete()
     return ctg
   }
