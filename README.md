@@ -25,14 +25,15 @@ O desafio de back-end será a contrução de API Rest para o funcionamento de um
 -  Deverá haver um relacionamento entre as tabelas de Produtos e Categorias.
 -  Deverão ser aplicadas as restrições que acharem necessárias para aplicação (ex: não permitir o cadastro de um produto com preço negativo)
 
-
-## Diagrama relacional
+### Diagrama relacional
 ![Diagrama Relacional](https://raw.githubusercontent.com/Jessy777-cripto/cardapio-app/main/images/card%C3%A1pio.png)
+
 ## Documentações/Referências
 - [AdonisJS](https://docs.adonisjs.com/guides/introduction)
-- [Node](https://nodejs.org/pt-br/about/)
+- [Node](https://nodejs.org/pt-br/docs/)
 - [Typescript](https://www.typescriptlang.org/docs/)
 - [MySQL](https://dev.mysql.com/doc/refman/8.0/en/)
+
 ## Contato
 - Linkedin: [Jéssica Leal](https://www.linkedin.com/in/j%C3%A9ssica-leal/)
 - Instagram: [@jszylw](https://www.instagram.com/jszylw/)
